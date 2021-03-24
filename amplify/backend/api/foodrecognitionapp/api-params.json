@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/foodrecognitionapp",
+            "lambdaFunction": "foodrecognitionapp",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/foodrecognitionapp"
+        }
+    ],
+    "resourceName": "foodrecognitionapp",
+    "apiName": "foodrecognitionapp",
+    "functionArns": [
+        {
+            "lambdaFunction": "foodrecognitionapp"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-foodrecognitionapp-dev-172341-authRole",
+        "unAuthRoleName": "amplify-foodrecognitionapp-dev-172341-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "foodrecognitionapp",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

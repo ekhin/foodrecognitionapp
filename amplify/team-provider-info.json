@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodrecognitionapp-dev-172341-authRole",
+      "UnauthRoleArn": "arn:aws:iam::435930412776:role/amplify-foodrecognitionapp-dev-172341-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::435930412776:role/amplify-foodrecognitionapp-dev-172341-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-foodrecognitionapp-dev-172341-deployment",
+      "UnauthRoleName": "amplify-foodrecognitionapp-dev-172341-unauthRole",
+      "StackName": "amplify-foodrecognitionapp-dev-172341",
+      "StackId": "arn:aws:cloudformation:us-west-2:435930412776:stack/amplify-foodrecognitionapp-dev-172341/31ac2fb0-8c37-11eb-b1f0-0aa970669529",
+      "AmplifyAppId": "d20b9s0l3tyzcf"
+    },
+    "categories": {
+      "auth": {
+        "foodrecognitionapp": {}
+      },
+      "function": {
+        "foodrecognitionapp": {
+          "deploymentBucketName": "amplify-foodrecognitionapp-dev-172341-deployment",
+          "s3Key": "amplify-builds/foodrecognitionapp-727336716263384f7232-build.zip"
+        }
+      }
+    }
+  }
+}
