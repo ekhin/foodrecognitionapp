@@ -12,7 +12,7 @@ def handler(event, context):
     # fileObj = s3.get_object(Bucket = "recognize", Key="image 5.jpg")
     # file_content = fileObj["Body"].read()
     # response = client.detect_labels(Image = {"S3Object": {"Bucket": "foodrecognition", "Name": "image 5.jpg"}}, MaxLabels=3, MinConfidence=70)
-    response = client.detect_labels(Image = {"S3Object": {"Bucket": "foodrecognitionapp172341-dev", "Name": "public/userUpload.png"}}, MaxLabels=5, MinConfidence=70)
+    response = client.detect_labels(Image = {"S3Object": {"Bucket": "foodrecognitionapp03126-master", "Name": "public/userUpload.png"}}, MaxLabels=5, MinConfidence=70)
     # print(response)
     return {
         'statusCode': 200,

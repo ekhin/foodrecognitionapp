@@ -22,5 +22,29 @@
         }
       }
     }
+  },
+  "master": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodrecognitionapp-master-03126-authRole",
+      "UnauthRoleArn": "arn:aws:iam::435930412776:role/amplify-foodrecognitionapp-master-03126-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::435930412776:role/amplify-foodrecognitionapp-master-03126-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-foodrecognitionapp-master-03126-deployment",
+      "UnauthRoleName": "amplify-foodrecognitionapp-master-03126-unauthRole",
+      "StackName": "amplify-foodrecognitionapp-master-03126",
+      "StackId": "arn:aws:cloudformation:us-west-2:435930412776:stack/amplify-foodrecognitionapp-master-03126/f2d27010-8c72-11eb-b545-0a449d0be91d",
+      "AmplifyAppId": "dfu7084hhozpg"
+    },
+    "categories": {
+      "auth": {
+        "foodrecognitionapp": {}
+      },
+      "function": {
+        "foodrecognitionapp": {
+          "deploymentBucketName": "amplify-foodrecognitionapp-master-03126-deployment",
+          "s3Key": "amplify-builds/foodrecognitionapp-326245666d6d79684d39-build.zip"
+        }
+      }
+    }
   }
 }
