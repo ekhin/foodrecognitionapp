@@ -42,7 +42,7 @@
       "function": {
         "foodrecognitionapp": {
           "deploymentBucketName": "amplify-foodrecognitionapp-master-03126-deployment",
-          "s3Key": "amplify-builds/foodrecognitionapp-67594f41626c43526b68-build.zip"
+          "s3Key": "amplify-builds/foodrecognitionapp-3663674348776d444459-build.zip"
         }
       }
     }

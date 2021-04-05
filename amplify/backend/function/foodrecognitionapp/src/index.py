@@ -15,7 +15,7 @@ NUTRIENTS_NUMBER_LIST = ["203", "204", "205", "606", "269",
 def recognizeImage():
     client = boto3.client("rekognition")
     s3 = boto3.client("s3")
-    response = client.detect_labels(Image = {"S3Object": {"Bucket": "recognize13339-dev", "Name": "public/userUpload.png"}}, MaxLabels=5, MinConfidence=70)
+    response = client.detect_labels(Image = {"S3Object": {"Bucket": "foodrecognitionapp03126-master", "Name": "public/userUpload.png"}}, MaxLabels=5, MinConfidence=70)
     return response
 
 

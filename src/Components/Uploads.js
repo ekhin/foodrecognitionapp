@@ -91,7 +91,7 @@ export default function Uploads() {
   let [loading, setLoading] = useState(true);
   let [color, setColor] = useState("#ffffff");
   const fetchRecognize = async () => {
-    const apiData = await API.get('recognize', '/recognize');
+    const apiData = await API.get('foodrecognitionapp', '/foodrecognitionapp');
     setNutrients(apiData);
   }
 
